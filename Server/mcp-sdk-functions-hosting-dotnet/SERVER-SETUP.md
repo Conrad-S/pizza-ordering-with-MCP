@@ -9,8 +9,8 @@ Notes:
 
 PREREQUISITES
 -------------
- - Review the link to the original sample repo for prerequisites. 
-    - Only take this step. DO NOT clone the repo! The code is already here!
+ - Review the link to the original repo for prerequisites (see the URL above).
+ - Next, Clone this repo. DO NOT clone the original repo (do not clone from the URL above).
  
  - I suggest running the MCP server (function app) locally to start. 
  - Once you are comfortable you can deploy to Azure.
