@@ -23,6 +23,11 @@ This GitHub repo modifies the original sample to create a client folder and serv
         └── ...
 ```
 
+# - Client -
+The client is a C# notebook that calls an existing (sample) MCP server. Please see the instructions in the C# notebook for details.
+
+# - Server -
+
 ## Prerequisites
 
 - Review the link to the original repo for prerequisites (see the URL above).
