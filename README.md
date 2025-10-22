@@ -3,7 +3,7 @@
 This is a modified version of a GitHub sample that deploys an MCP server as an Azure Function. 
 The main modification is the addition of pizza ordering in addition to the weather functionality.
 
-Original URL (do not clone this URL): https://github.com/Azure-Samples/mcp-sdk-functions-hosting-dotnet?tab=readme-ov-file
+Original URL (do not clone this URL): https://github.com/Azure-Samples/mcp-sdk-functions-hosting-dotnet
 
 Do not clone the original URL, instead, clone this repo.
 
@@ -40,7 +40,7 @@ The client is a C# notebook that calls an existing (sample) MCP server. Please s
 To start the server (two distinct steps):
 
 ### 1. In Terminal (Bash):
-- Go to the folder `FOUNDRY-AGENT-AND-MCP\Server\mcp-sdk-functions-hosting-dotnet`
+- Go to the folder `\Server\mcp-sdk-functions-hosting-dotnet`
 - Type: `func start` (starts the Azure Function in Visual Studio Code)
 
 ### 2. In Files list on the left side of the Visual Studio Code window, open the file: `.vscode\mcp.json`
