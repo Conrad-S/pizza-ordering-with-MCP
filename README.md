@@ -1,6 +1,9 @@
 # Pizza Ordering with MCP
 
-**URL:** https://github.com/Azure-Samples/mcp-sdk-functions-hosting-dotnet?tab=readme-ov-file#prerequisites
+## Notes
+
+- This is a modified version of the sample above. The main modification is the addition of pizza ordering in addition to the weather functionality.
+ - **URL:** https://github.com/Azure-Samples/mcp-sdk-functions-hosting-dotnet?tab=readme-ov-file#prerequisites
 
 ## Repository Structure
 
@@ -16,10 +19,6 @@
         │   └── PizzaTools.cs          # Added pizza ordering functionality
         └── ...
 ```
-
-## Notes
-
-- This is a modified version of the sample above. The main modification is the addition of pizza ordering in addition to the weather functionality.
 
 ## Prerequisites
 
