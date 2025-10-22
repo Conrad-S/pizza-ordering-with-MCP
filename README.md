@@ -1,4 +1,4 @@
-# Host remote MCP servers built with official MCP SDKs on Azure Functions
+# Pizza Ordering with MCP
 
 **URL:** https://github.com/Azure-Samples/mcp-sdk-functions-hosting-dotnet?tab=readme-ov-file#prerequisites
 
