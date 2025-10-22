@@ -3,7 +3,9 @@
 This is a modified version of a GitHub sample that deploys an MCP server as an Azure Function. 
 The main modification is the addition of pizza ordering in addition to the weather functionality.
 
-**Original URL:** https://github.com/Azure-Samples/mcp-sdk-functions-hosting-dotnet?tab=readme-ov-file
+Original URL (do not clone this URL): https://github.com/Azure-Samples/mcp-sdk-functions-hosting-dotnet?tab=readme-ov-file
+
+Do not clone the original URL, instead, clone this repo.
 
 ## Repository Structure
 This GitHub repo modifies the original sample to create a client folder and server folder, each with MCP samples. The structure:
