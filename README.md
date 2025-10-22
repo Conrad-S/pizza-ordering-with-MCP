@@ -1,33 +1,34 @@
 # Pizza Ordering with MCP
 
-## Notes
+This is a modified version of a GitHub sample that deploys an MCP server as an Azure Function. 
+The main modification is the addition of pizza ordering in addition to the weather functionality.
 
-- This is a modified version of the sample above. The main modification is the addition of pizza ordering in addition to the weather functionality.
- - **URL:** https://github.com/Azure-Samples/mcp-sdk-functions-hosting-dotnet?tab=readme-ov-file#prerequisites
+**Original URL:** https://github.com/Azure-Samples/mcp-sdk-functions-hosting-dotnet?tab=readme-ov-file
 
 ## Repository Structure
+This GitHub repo modifies the original sample to create a client folder and server folder, each with MCP samples. The structure:
 
 ```
-├── README.md                           # This file
-├── foundry-agent-and-mcp.sln          # Visual Studio solution
-├── Client/                             # Foundry agent notebook
-│   └── mcp.ipynb                      # .NET Interactive notebook demonstrating MCP integration
-└── Server/                            # MCP server implementation
-    └── mcp-sdk-functions-hosting-dotnet/  # Azure Functions MCP server
+├── README.md                              # This file
+├── foundry-agent-and-mcp.sln              # Visual Studio solution file (used by the server, the file is here since .sln files are one level above the project file.
+├── Client/                                # Client: sample code to call an existing MCP server.
+│   └── mcp.ipynb                          # C-sharp notebook with sample code to call an existing MCP Server
+└── Server/                                # Server folder (holds the server project)
+    └── mcp-sdk-functions-hosting-dotnet/  # Pizza ordering MCP server
         ├── Tools/
-        │   ├── WeatherTools.cs        # Original weather functionality
-        │   └── PizzaTools.cs          # Added pizza ordering functionality
+        │   ├── WeatherTools.cs            # weather forcast MCP (existed in the original sample).
+        │   └── PizzaTools.cs              # Pizza ordering tool for MCP (added to this sample).
         └── ...
 ```
 
 ## Prerequisites
 
 - Review the link to the original repo for prerequisites (see the URL above).
-- Next, Clone this repo. DO NOT clone the original repo (do not clone from the URL above).
-- I suggest running the MCP server (function app) locally to start.
-- Once you are comfortable you can deploy to Azure.
+- Next, Clone this repo. DO NOT clone the original repo (do not clone from the Original URL above).
+- Suggest running the MCP server (function app) locally in Visual Studio Code to start.
+- Once you are comfortable, you can deploy to Azure.
 
-## To Start
+## To Start the MCP server and test:
 
 To start the server (two distinct steps):
 
@@ -67,11 +68,11 @@ The entry in mcp.json should look something like this:
 1. Once the server is started, open a NEW GitHub Copilot chat.
 2. Verify that GitHub Copilot chat is set to Agent mode.
 
-Type the following questions and press the submit button in GitHub Copilot chat:
+Type the following questions individually and press the submit button in GitHub Copilot chat after asking each question:
 - How is the weather today in New York?
 - Can I please see the pizza menu?
 
-GitHub Copilot chat should prompt to allow use of a MCP server, and should be able to answer both questions.
+GitHub Copilot chat should prompt to allow use of an MCP server, and should be able to answer both questions.
 
 ## Deployment
 
